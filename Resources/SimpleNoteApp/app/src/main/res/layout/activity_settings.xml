@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <Switch
+        android:id="@+id/switchDarkMode"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:minHeight="48dp"
+        android:padding="8dp"
+        android:text="Dark Mode"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/buttonSync"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sync Notes"
+        android:layout_below="@id/switchDarkMode"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/buttonChangeFontSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change Font Size"
+        android:layout_below="@id/buttonSync"
+        android:layout_marginTop="16dp"/>
+
+</RelativeLayout>
